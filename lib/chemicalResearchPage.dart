@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:chem_search/body.dart';
-//import 'package:chem_search/toast_animation.dart';
 import 'package:flutter/foundation.dart';
 import 'dart:convert';
 import 'dart:async';
@@ -10,12 +9,9 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:rounded_floating_app_bar/rounded_floating_app_bar.dart';
 import 'package:autocomplete_textfield/autocomplete_textfield.dart';
-//import 'toast_utils.dart';
 import 'chemical.dart';
 import 'jsonBody.dart';
-//deleted simple animations
 import 'package:flutter_typeahead/flutter_typeahead.dart';
-//import 'package:html/parser.dart'
 
 
 
@@ -219,7 +215,6 @@ class chemicalResearchPage extends State<chemPage>{
               }
 
               );
-//          ToastUtils.showCustomToast(context, "Chemical Research Copied to Clipboard!");
         },
       ),
 
