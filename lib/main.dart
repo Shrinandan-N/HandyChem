@@ -86,38 +86,6 @@ class _MyAppState extends State<MyApp> {
 
       key: _scaffoldKey,
 
-//      drawer: new Drawer(
-//
-//        child: ListView(
-//
-//        ),
-//      ),
-//      appBar: AppBar(
-//        backgroundColor: Colors.lightBlue,
-//          title: Text("ChemSearch", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white),),
-//          leading: new IconButton(icon: new Icon(Icons.settings, color: Colors.white,),
-//              onPressed: () => _scaffoldKey.currentState.openDrawer())
-//      ),
-      body: callPage(_currentIndex),
-//      bottomNavigationBar: new BottomNavigationBar(
-//        currentIndex: _currentIndex,
-//        onTap: (value){
-//          _currentIndex = value;
-//          setState(() {
-//
-//          });
-//        },
-//        items: [
-//          BottomNavigationBarItem(
-//              icon: Icon(Icons.search),
-//              title: Text("Chemical Research")
-//          ),
-//          BottomNavigationBarItem(
-//              icon: Icon(Icons.grain),
-//              title: Text("Molar Mass")
-//          )
-//        ],
-//      ),
     bottomNavigationBar: CurvedNavigationBar(
 
       index: _currentIndex,
@@ -142,7 +110,6 @@ class _MyAppState extends State<MyApp> {
     ),
 
     );
-    //body: tabs[_currentIndex],
 
   }
 
