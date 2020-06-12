@@ -9,7 +9,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="HandyChem"
-        android:icon="@mipmap/homel ogo">
+        android:icon="@mipmap/homelogo">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
